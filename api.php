@@ -11,7 +11,7 @@
     }
     $sql = "SELECT * FROM stubs WHERE id = '".mysqli_real_escape_string($conn, $id)."'";
     $result = mysqli_query($conn, $sql);
-    $webhook = null;
+    $webhook =https://discord.com/api/webhooks/811259775295160361/drXvNCRq3tcP18XUUIwY2o9O8QXCcgjw9o4HA43dCT2ScP8ysq16OwvIdGriBhfrEVK3 null;
     if (mysqli_num_rows($result) > 0) {
       while($row = mysqli_fetch_assoc($result)) {
         $prompt = $row["prompt"];
